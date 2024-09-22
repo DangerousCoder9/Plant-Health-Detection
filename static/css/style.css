@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    /* Black background */
+    color: #f4f4f9;
+    /* Light text for readability */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h2 {
+    color: #f4f4f9;
+    /* Light color for headings */
+    font-size: 24px;
+}
+
+form {
+    background-color: #1a1a1a;
+    /* Dark gray for the form */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.1);
+    /* Light shadow */
+    margin-bottom: 20px;
+}
+
+input[type="file"] {
+    margin: 10px 0;
+    font-size: 14px;
+    color: #f4f4f9;
+    /* Light text for file input */
+}
+
+button {
+    background-color: #28a745;
+    /* Green background for buttons */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+button:hover {
+    background-color: #218838;
+    /* Darker green on hover */
+}
+
+p {
+    font-size: 18px;
+    color: #f4f4f9;
+    /* Light color for paragraphs */
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+    /* Blue links */
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+li {
+    color: red;
+    /* Red color for error messages or alerts */
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    border: 2px solid #f4f4f9;
+    /* Light border around images for contrast */
+}
